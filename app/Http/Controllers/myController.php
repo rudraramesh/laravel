@@ -21,6 +21,9 @@ class myController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function showproductform(){
+        return view('addproduct');
+    }
     public function create()
     {
         //

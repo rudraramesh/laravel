@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MY Try Page</title>
+	<title>https://tms16.nepsetms.com.np/tms/me/gen-bank/client-fund-transfer?via=NCHL</title>
 </head>
 <body>
 	<h2>The Page Details</h2>

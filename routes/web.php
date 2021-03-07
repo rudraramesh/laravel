@@ -24,3 +24,5 @@ Route::get('hello', 'App\Http\Controllers\myController@index');
 Route::get('trypage', function(){
 	return view('pratic');
 });
+//to show addproduct form
+Route::get('addproduct', 'App\Http\Controllers\myController@showproductform');
