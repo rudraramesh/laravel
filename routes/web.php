@@ -38,3 +38,7 @@ Route::get('/deletedata/{id}','App\Http\Controllers\myController@destroy')->name
 
 //to update product data
 Route::get('editdata/{id}','App\Http\Controllers\myController@edit')->name('editproduct');
+
+//to update product
+Route::post('updatedata/{id}','App\Http\Controllers\myController@update')->name('updateproduct');
+

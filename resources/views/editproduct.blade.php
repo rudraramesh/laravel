@@ -15,7 +15,7 @@
 		</div>
 		@endif
 
-		<form action="" method="POST" enctype="multipart/form-data">
+		<form action="{{route('updateproduct',$product->id)}}" method="POST" enctype="multipart/form-data">
 			@csrf
 			<div class="col-md-6">
 				<label for="productName">ProductName</label>
@@ -36,7 +36,7 @@
 			<div class="col-md-6">
 				<label for="image">Product Images</label>
 				<input type="file" class="form-control" name="image" >
-				<img src="{{asset('upload/products')}}/{{$product->product_image}}" alt="" width="60"><br>
+				<img src="{{asset('upload/products')}}/{{$product->product_image}}" alt="" width="60" style="padding: 2px;"><br>
 			</div>
 			<div class="col-md-6">
 				<button type="submit" class="btn btn-primary" >Update Product</button>
